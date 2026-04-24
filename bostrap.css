@@ -1,0 +1,94 @@
+body{
+    background-color: pink !important;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url(img/fondo\ modal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    display: flex;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    align-self: center;
+}
+header span{
+    font-weight: bolder;
+    color: fuchsia;
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+    font-family: cursive;
+}
+header button{
+    background: pink;
+    border-radius: 20px;
+    border: 2px solid fuchsia;
+    padding: 5px;
+    
+}
+.modal{
+    background: rgba(255, 192, 203, 0.315);
+}
+.modal-content{
+    background-image: url(img/fondo\ modal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-titulo{
+    color: fuchsia;
+    font-weight: bolder;
+    -webkit-text-stroke: 0,5px rgb(243, 235, 243);
+    font-family: cursive;
+    font-size: 20px;
+}
+form *{
+    color: rgb(73, 0, 73);
+}
+header a{
+    text-decoration: none;
+    color: fuchsia;
+}
+header button:hover {
+    color: white;
+    background: rgb(175, 1, 175);
+    transform: translateY(-5px);
+    transition: 0.7s;
+}
+.carousel{
+    display: flex;
+    justify-self: center;
+    background-image: radial-gradient(white, fuchsia);
+    width: 50%;
+    height: 50%;
+}
+#carouselExample{
+    width: 100%;
+    height: 40%;
+    box-shadow: 0 5px 50px fuchsia;
+
+}
+img{
+    display: flex;
+    justify-self: center;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 5px 50px fuchsia;
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+}
+#btnprev{
+    background: fuchsia;
+}
+#btnnext{
+    background: fuchsia;
+}
