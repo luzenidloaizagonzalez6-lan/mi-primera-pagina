@@ -2,23 +2,19 @@ body{
     background-color: pink !important;
 }
 header{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+
+    padding: 5px;
     background-image: url(img/fondo\ modal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-p{
-    display: flex;
-    background-image: url(img/logo.png);
+header img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    width: 60%;
+    height: 80%;
     border-radius: 30px;
-    align-self: center;
 }
 header span{
     font-weight: bolder;
@@ -31,8 +27,13 @@ header button{
     background: pink;
     border-radius: 20px;
     border: 2px solid fuchsia;
-    padding: 5px;
-    
+    padding: 5px;    
+}
+#text{
+    display: flexbox;
+    justify-items: center;
+    align-items:center;
+
 }
 .modal{
     background: rgba(255, 192, 203, 0.315);
@@ -85,10 +86,4 @@ img{
     width: 40%;
     height: 40%;
     margin: 20px;
-}
-#btnprev{
-    background: fuchsia;
-}
-#btnnext{
-    background: fuchsia;
 }
